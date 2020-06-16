@@ -1,0 +1,47 @@
+<!-- Hier heb ik niet teveel commentaar bij geschreven. Het zijn de drie lichten met de twee knoppen. CSS is puur voor het zicht gedaan. --> 
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>Trafficlights</title>
+ 	<link rel="stylesheet" type="text/css" href="mystyle.css">
+ </head>
+ <body>
+ 	<div class="containerTrafficLight">
+ 		<div class="crossroad">
+ 			<h1>CROSS ROAD</h1>
+ 			<div class="trafficlight">
+ 				<div id="red" class="lamp red"></div>
+ 				<div id="orange" class="lamp orange"></div>
+ 				<div id="green" class="lamp green"></div>
+ 			</div>
+ 		</div>
+
+ 		<div class="crossroad">
+ 			<h1>WALK</h1>
+ 			<div class="crosslight">
+ 				<div id="walkred" class="walker red"></div>
+ 				<div id="walkgreen" class="walker green"></div>
+ 			</div>
+ 		</div>
+
+ 		<div class="mainroad">
+ 			<h1>MAIN ROAD</h1>
+ 			<div class="trafficlight">
+ 				<div id="mainred" class="lamp red"></div>
+ 				<div id="mainorange" class="lamp orange"></div>
+ 				<div id="maingreen" class="lamp green"></div>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<table>
+ 		<tr>
+ 			<td><button type="button" onclick="flashOnOff()">Alarmfase</button></td>
+ 			<td><button type="button" onclick="pedestrian()">Voetgangersmelding</button></td>
+ 		</tr>
+ 	</table>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+ 	<script type="text/javascript" src="script.js"></script>    
+ </body>
+ </html> 

@@ -1,0 +1,120 @@
+body {
+/*    background-image: url("intersection.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+*/}
+
+.containerTrafficLight{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.crosslight{
+    width: 300px;
+    height: 200px;
+    background-color: #434343;
+    margin: 10px auto 0px auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.trafficlight{
+    width: 100px;
+    height: 300px;
+    background-color: #434343;
+    margin: 10px auto 0px auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.lamp{
+    border-radius: 100%;
+    width: 80; 
+    height: 80;
+    padding: 45px;
+    margin: 5px;
+}
+
+.walker{
+    border-radius: 5%;
+    width: 80; 
+    height: 80;
+    padding: 45px;
+    margin: 5px;
+}
+
+
+.lamp.red{
+    background-color: #331111;
+}
+
+.lamp.orange{
+    background-color: #222211;
+}
+
+.lamp.green{
+    background-color: #113311;
+}
+
+.walker.red{
+    background-color: #331111;
+}
+
+.walker.orange{
+    background-color: #222211;
+}
+
+.walker.green{
+    background-color: #113311;
+}
+
+.lamp.green.getgreen{
+    background-color: lightgreen; 
+}
+
+.lamp.red.getred{
+    background-color: red; 
+}
+
+.lamp.orange.getorange{
+    background-color: orange; 
+}
+
+.walker.red.getred{
+    background-color: red;
+}
+
+.walker.orange.getorange{
+    background-color: orange;
+}
+
+.walker.green.getgreen{
+    background-color: lightgreen;
+}
+
+table{
+    margin: 10%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button{
+    width: 300px;
+    height: 100px;
+    background-color: #434343;
+    margin: 10px auto 0px auto;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: Calibri; 
+    font-size: 28px; 
+    font-style: bold; 
+    color: whitesmoke; 
+}
+
+
+#human{
+    margin: 0 auto 0 auto;
+}
